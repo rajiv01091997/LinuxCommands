@@ -1,0 +1,28 @@
+mkdir <folder_name>                          -->To make a subdirectory inside current directory
+cd                                       ------>To move directly to home directory
+cd <folder_name>                          ----->to change your directory
+cd ..                              ------------>to go back to previous direcory
+ls                                  ----------->to list all the files and folders in current directory
+ls <folder_name>                           ---->to list all the files and folders inside a particular subdirectory/subfolder
+ls -a                                 --------->to list all the files and folders along with hidden files
+ls -l                                  -------->details view i.e date of creation of file,time of creation etc
+ls -la                                 -------->detail view of normals as well as hidden files
+pwd                                  ---------->to get the current path
+clear                                ---------->to clear the terminal window
+touch <file_name.extension>               ----->to make a blank file inside the current directory
+cat > <fileName>                        ------->to create a file with something written on it
+cat <fileName>                          ------->to view the file content on terminal
+cat >> <fileName>                       ------->to edit the file created previously
+rm <file_name>                          ------->to remove or delete the file
+rmdir <directory_name>                  ------->to remove or delete the directory
+man <command_name>                      ------->to get manual of the command or get help on that command
+cp <file_name> <destination_directory_name> --->to copy a file to another directory
+whoami                                --------->gives your user name
+history                               --------->lists out around last 500 commands that has been run in your terminal
+uname                                ---------->prints operating system's name
+mv <source_file_name> <destination_file_name---> (a) for moving the content of one file to another and this could be used for for renaming the file as well when we are moving the content to a file which does not exist so it renames the source file with the name of destination file.(b) mv <file/directoryToBeMoved> <destination_directory>for moving files  files or directories from one directory to another
+arch                                  --------->tells architecture whether 32 bits or 64 bits
+free                                  --------->tells sbout how much space is free and how much is already used in system
+grep "pattern/string" <file_name_wherein_to search>--------->search pattern in file                 
+file
+tar
